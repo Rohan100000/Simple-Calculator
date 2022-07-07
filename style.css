@@ -1,0 +1,108 @@
+#calculator{
+    height: 500px;
+    width: 275px;
+    background: linear-gradient(135deg,rgb(250, 252, 252),rgba(79, 234, 255, 0.814));
+    border-radius: 20px;
+}
+#display-content{
+    height: 100px;
+    width: 200px;
+    padding-top: 40px;
+    text-align: end;
+    overflow: hidden;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.buttons{
+    height: 50px;
+    width: 50px;
+    margin: 7.5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    justify-content: space-around;
+    position: relative;
+    left: 6px;
+    color: rgba(33, 0, 251, 0.562);
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons:hover{
+    background-color: rgba(33, 0, 251, 0.562);
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+.buttons-plus-minus{
+    height: 80px;
+}
+
+.buttons123{
+    position: relative;
+    bottom: 30px;
+}
+.buttons0dot{
+    position: relative;
+    bottom: 60px;
+}
+.color-arithmetic-operators{
+    background-color: rgba(139, 216, 239, 0.678);
+}
+#equal-to{
+    background-color: rgba(33, 0, 251, 0.562);
+    color: whitesmoke;
+}
+#equal-to:hover{
+    transition: 0.4s;
+    background-color:rgb(33, 0, 251);
+}
+#zero{
+    width: 115px;
+}
+i{  
+    color: rgba(33, 0, 251, 0.562);
+    font-size: 1.5rem;
+}
+i:hover{
+    color: whitesmoke;
+    transition: 0.4s;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Code for dark mode toggle */
+#outer-box{
+    height: 10px;
+    width: 20px;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 1%;
+    margin-left: 85%;
+}
+#outer-box:hover{
+    cursor: pointer;
+}
+#inner-box{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 0.5px;
+    position: relative;
+    left: 0.5px;
+    bottom: 0.5px;
+    transition: 0.4s;
+}

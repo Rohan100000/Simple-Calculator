@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="display-content">
+        <span id="string"></span>
+        <h1 id="answer"></h1>
+      </div>
+      <div id="outer-box">
+        <div id="inner-box"></div>
+      </div>
+      <ul style="padding: 0" type="none" id="buttons">
+        <li>
+          <div class="buttons" id="ac">AC</div>
+        </li>
+        <li>
+          <div class="buttons" id="bs">
+            <i class="bi bi-backspace"></i>
+          </div>
+        </li>
+        <li>
+          <div class="buttons color-arithmetic-operators" id="division">/</div>
+        </li>
+        <li>
+          <div class="buttons color-arithmetic-operators" id="multiplication">
+            *
+          </div>
+        </li>
+        <li>
+          <div class="buttons" id="seven">7</div>
+        </li>
+        <li>
+          <div class="buttons" id="eight">8</div>
+        </li>
+        <li>
+          <div class="buttons" id="nine">9</div>
+        </li>
+        <li>
+          <div class="buttons color-arithmetic-operators" id="minus">-</div>
+        </li>
+        <li>
+          <div class="buttons" id="four">4</div>
+        </li>
+        <li>
+          <div class="buttons" id="five">5</div>
+        </li>
+        <li>
+          <div class="buttons" id="six">6</div>
+        </li>
+        <li>
+          <div
+            class="buttons buttons-plus-minus color-arithmetic-operators"
+            id="plus"
+          >
+            +
+          </div>
+        </li>
+        <li>
+          <div class="buttons buttons123" id="one">1</div>
+        </li>
+        <li>
+          <div class="buttons buttons123" id="two">2</div>
+        </li>
+        <li>
+          <div class="buttons buttons123" id="three">3</div>
+        </li>
+        <li>
+          <div class="buttons buttons-plus-minus" id="equal-to">=</div>
+        </li>
+        <li>
+          <div class="buttons buttons0dot" id="zero">0</div>
+        </li>
+        <li>
+          <div class="buttons buttons0dot" id="dot">.</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- javascript FILES -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
